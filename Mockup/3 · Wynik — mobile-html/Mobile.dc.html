@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Cenflix — wynik na telefonie</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2446D8}a:hover{color:#1A33A3}
+</style>
+</helmet>
+<div style="width: 390px; height: 1960px; box-sizing: border-box; background: #F3F4F6; color: #14161B; font-family: 'Inter', system-ui, sans-serif; font-size: 15px; line-height: 1.45; display: flex; flex-direction: column; overflow: hidden">
+
+  <header style="background: #FFFFFF; border-bottom: 1px solid #E2E4E9; padding: 12px 16px; display: flex; align-items: center; gap: 12px">
+    <a href="Home.dc.html" aria-label="Wróć" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; color: #14161B; border-radius: 10px">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg>
+    </a>
+    <div style="display: flex; flex-direction: column; flex: 1; min-width: 0">
+      <strong style="font-size: 16px">Ostatni Prom</strong>
+      <span style="font-size: 12px; color: #5B6170">3 sezony · 30 odc. · 25 h</span>
+    </div>
+    <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px">C<span style="color: #2446D8">f</span></span>
+  </header>
+
+  <div style="padding: 12px 16px; display: flex; gap: 8px; overflow: hidden; background: #FFFFFF; border-bottom: 1px solid #E2E4E9">
+    <button type="button" style="flex: none; display: flex; align-items: center; gap: 6px; padding: 8px 12px; min-height: 40px; border-radius: 999px; border: 1px solid #14161B; background: #14161B; color: #FFFFFF; font-size: 13px; font-weight: 600">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"></path></svg>
+      Filtry · 2
+    </button>
+    <button type="button" style="flex: none; padding: 8px 12px; min-height: 40px; border-radius: 999px; border: 1.5px solid #2446D8; background: #E8EDFD; color: #1A33A3; font-size: 13px; font-weight: 600">Weekly · 1 odc.</button>
+    <button type="button" style="flex: none; padding: 8px 12px; min-height: 40px; border-radius: 999px; border: 1.5px solid #2446D8; background: #E8EDFD; color: #1A33A3; font-size: 13px; font-weight: 600">Lektor PL</button>
+    <button type="button" style="flex: none; padding: 8px 12px; min-height: 40px; border-radius: 999px; border: 1px solid #D6D9E0; background: #FFFFFF; color: #14161B; font-size: 13px">Jakość</button>
+  </div>
+
+  <main style="padding: 16px; display: flex; flex-direction: column; gap: 16px">
+
+    <section aria-label="Najtańsza opcja" style="background: #14161B; color: #FFFFFF; border-radius: 18px; padding: 20px; display: flex; flex-direction: column; gap: 10px">
+      <span style="align-self: flex-start; padding: 3px 10px; border-radius: 999px; background: #2446D8; font-size: 12px; font-weight: 600">Najtaniej dla Ciebie</span>
+      <span style="font-size: 13px; color: #C9CEDA">Cały serial przy 1 odc. w tygodniu, z lektorem PL</span>
+      <span style="font-family: 'Space Grotesk', sans-serif; font-size: 48px; font-weight: 700; line-height: 1; letter-spacing: -1px">209,93 zł</span>
+      <span style="font-weight: 600">Kinova · Podstawowy z reklamami</span>
+      <span style="font-size: 13px; color: #C9CEDA">7 cykli × 29,99 zł · koniec 19.05.2027</span>
+      <a href="#" style="margin-top: 6px; display: flex; align-items: center; justify-content: center; gap: 8px; background: #FFFFFF; color: #14161B; text-decoration: none; font-weight: 700; min-height: 48px; border-radius: 12px">Przejdź do Kinova</a>
+      <span style="font-size: 11px; color: #C9CEDA; text-align: center">Link partnerski · szacunek, nie gwarancja · dane z 21.10.2026</span>
+    </section>
+
+    <section aria-label="Sugestia" style="background: #FFF1E6; border-radius: 14px; padding: 14px; display: flex; flex-direction: column; gap: 10px">
+      <span style="font-size: 14px; color: #6B2A05">Oglądając <strong>2 odc. w tygodniu</strong> zamiast 1, zmieścisz się w 4 cyklach i zapłacisz <strong>89,97 zł mniej</strong>.</span>
+      <button type="button" style="align-self: flex-start; padding: 8px 14px; min-height: 44px; border-radius: 10px; border: 1px solid #B4470A; background: #FFFFFF; color: #8A3507; font-weight: 600">Zastosuj</button>
+    </section>
+
+    <section aria-label="Plan oglądania" style="background: #FFFFFF; border: 1px solid #E2E4E9; border-radius: 18px; padding: 18px; display: flex; flex-direction: column; gap: 4px">
+      <h2 style="margin: 0 0 4px; font-size: 17px">Plan oglądania</h2>
+      <span style="font-size: 12px; color: #5B6170; margin-bottom: 10px">30 odc. · 1 odc. w tygodniu → 30 tygodni → 7 cykli × 29,99 zł</span>
+
+      <div style="display: flex; gap: 12px">
+        <div style="display: flex; flex-direction: column; align-items: center; flex: none; width: 14px">
+          <span style="width: 12px; height: 12px; border-radius: 999px; background: #2446D8"></span>
+          <span style="width: 2px; flex: 1; background: #D6D9E0"></span>
+        </div>
+        <div style="flex: 1; padding-bottom: 14px; display: flex; flex-direction: column; gap: 4px">
+          <div style="display: flex; justify-content: space-between"><strong style="font-size: 14px">Cykl 1 · 28.10 – 27.11</strong><strong style="font-family: 'Space Grotesk', sans-serif">29,99 zł</strong></div>
+          <span style="font-size: 12px; color: #5B6170">5 odc. · S1E1–S1E5</span>
+          <div style="display: flex; gap: 4px"><span style="width: 10px; height: 10px; border-radius: 3px; background: #2446D8"></span><span style="width: 10px; height: 10px; border-radius: 3px; background: #2446D8"></span><span style="width: 10px; height: 10px; border-radius: 3px; background: #2446D8"></span><span style="width: 10px; height: 10px; border-radius: 3px; background: #2446D8"></span><span style="width: 10px; height: 10px; border-radius: 3px; background: #2446D8"></span></div>
+        </div>
+      </div>
+      <div style="display: flex; gap: 12px">
+        <div style="display: flex; flex-direction: column; align-items: center; flex: none; width: 14px">
+          <span style="width: 12px; height: 12px; border-radius: 999px; background: #2446D8"></span>
+          <span style="width: 2px; flex: 1; background: #D6D9E0"></span>
+        </div>
+        <div style="flex: 1; padding-bottom: 14px; display: flex; flex-direction: column; gap: 4px">
+          <div style="display: flex; justify-content: space-between"><strong style="font-size: 14px">Cykl 2 · 28.11 – 27.12</strong><strong style="font-family: 'Space Grotesk', sans-serif">29,99 zł</strong></div>
+          <span style="font-size: 12px; color: #5B6170">4 odc. · S1E6–S1E9</span>
+          <div style="display: flex; gap: 4px"><span style="width: 10px; height: 10px; border-radius: 3px; background: #2446D8"></span><span style="width: 10px; height: 10px; border-radius: 3px; background: #2446D8"></span><span style="width: 10px; height: 10px; border-radius: 3px; background: #2446D8"></span><span style="width: 10px; height: 10px; border-radius: 3px; background: #2446D8"></span></div>
+        </div>
+      </div>
+      <div style="display: flex; gap: 12px">
+        <div style="display: flex; flex-direction: column; align-items: center; flex: none; width: 14px">
+          <span style="width: 12px; height: 12px; border-radius: 999px; background: #2446D8"></span>
+          <span style="width: 2px; flex: 1; background: #D6D9E0"></span>
+        </div>
+        <div style="flex: 1; padding-bottom: 14px; display: flex; flex-direction: column; gap: 4px">
+          <div style="display: flex; justify-content: space-between"><strong style="font-size: 14px">Cykl 3 · 28.12 – 27.01</strong><strong style="font-family: 'Space Grotesk', sans-serif">29,99 zł</strong></div>
+          <span style="font-size: 12px; color: #5B6170">5 odc. · S1E10–S2E4</span>
+        </div>
+      </div>
+      <div style="display: flex; gap: 12px">
+        <div style="display: flex; flex-direction: column; align-items: center; flex: none; width: 14px">
+          <span style="width: 12px; height: 12px; border-radius: 999px; background: #2446D8"></span>
+          <span style="width: 2px; flex: 1; background: #D6D9E0"></span>
+        </div>
+        <div style="flex: 1; padding-bottom: 14px; display: flex; flex-direction: column; gap: 4px">
+          <div style="display: flex; justify-content: space-between"><strong style="font-size: 14px">Cykle 4–6 · 28.01 – 27.04</strong><strong style="font-family: 'Space Grotesk', sans-serif">89,97 zł</strong></div>
+          <span style="font-size: 12px; color: #5B6170">12 odc. · S2E5–S3E6 · rozwiń</span>
+        </div>
+      </div>
+      <div style="display: flex; gap: 12px">
+        <div style="display: flex; flex-direction: column; align-items: center; flex: none; width: 14px">
+          <span style="width: 12px; height: 12px; border-radius: 999px; background: #B4470A"></span>
+        </div>
+        <div style="flex: 1; display: flex; flex-direction: column; gap: 4px">
+          <div style="display: flex; justify-content: space-between"><strong style="font-size: 14px">Cykl 7 · 28.04 – 27.05</strong><strong style="font-family: 'Space Grotesk', sans-serif">29,99 zł</strong></div>
+          <span style="font-size: 12px; color: #5B6170">4 odc. · S3E7–S3E10 · ostatni 19.05.2027</span>
+          <span style="font-size: 12px; font-weight: 600; color: #B4470A">Zrezygnuj do 27.05.2027</span>
+        </div>
+      </div>
+
+      <div style="margin-top: 14px; padding-top: 14px; border-top: 1px solid #E2E4E9; display: flex; justify-content: space-between; align-items: baseline">
+        <span style="color: #5B6170">Cena finalna</span>
+        <strong style="font-family: 'Space Grotesk', sans-serif; font-size: 22px">209,93 zł</strong>
+      </div>
+    </section>
+
+    <section aria-label="Pozostałe oferty" style="display: flex; flex-direction: column; gap: 10px">
+      <h2 style="margin: 0; font-size: 17px">Pasujące oferty (5)</h2>
+      <article style="background: #FFFFFF; border: 2px solid #2446D8; border-radius: 14px; padding: 14px; display: flex; align-items: center; gap: 12px">
+        <span aria-hidden="true" style="width: 40px; height: 40px; border-radius: 10px; background: #7A2E8C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-weight: 700; flex: none">K</span>
+        <div style="flex: 1; min-width: 0; display: flex; flex-direction: column"><strong style="font-size: 14px">Kinova · Podstawowy</strong><span style="font-size: 12px; color: #5B6170">Full HD · reklamy · lektor PL</span></div>
+        <strong style="font-family: 'Space Grotesk', sans-serif; font-size: 18px">209,93 zł</strong>
+      </article>
+      <article style="background: #FFFFFF; border: 1px solid #E2E4E9; border-radius: 14px; padding: 14px; display: flex; align-items: center; gap: 12px">
+        <span aria-hidden="true" style="width: 40px; height: 40px; border-radius: 10px; background: #0E6E6E; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-weight: 700; flex: none">S</span>
+        <div style="flex: 1; min-width: 0; display: flex; flex-direction: column"><strong style="font-size: 14px">Seria+ · Miesięczny</strong><span style="font-size: 12px; color: #5B6170">4K HDR · bez reklam · roczny 299 zł mniej korzystny</span></div>
+        <strong style="font-family: 'Space Grotesk', sans-serif; font-size: 18px">244,93 zł</strong>
+      </article>
+      <article style="background: #FFFFFF; border: 1px solid #E2E4E9; border-radius: 14px; padding: 14px; display: flex; align-items: center; gap: 12px">
+        <span aria-hidden="true" style="width: 40px; height: 40px; border-radius: 10px; background: #B4470A; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-weight: 700; flex: none">P</span>
+        <div style="flex: 1; min-width: 0; display: flex; flex-direction: column"><strong style="font-size: 14px">Plejada TV · Standard</strong><span style="font-size: 12px; color: #6E4E00">Dane sprzed 56 dni</span></div>
+        <strong style="font-family: 'Space Grotesk', sans-serif; font-size: 18px">279,93 zł</strong>
+      </article>
+      <button type="button" style="min-height: 44px; border-radius: 12px; border: 1px solid #D6D9E0; background: #FFFFFF; color: #14161B; font-weight: 600">Pokaż wszystkie (5) i niepasujące (1)</button>
+    </section>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":1960}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>
